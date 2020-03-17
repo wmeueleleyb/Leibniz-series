@@ -19,6 +19,7 @@ def animate(i):
     y.append(pi)
     plt.cla()
     plt.plot(x,y)
+    plt.title("pi = " + str(pi))
 
 animation = FuncAnimation(plt.gcf(), animate, interval = 10)
 
